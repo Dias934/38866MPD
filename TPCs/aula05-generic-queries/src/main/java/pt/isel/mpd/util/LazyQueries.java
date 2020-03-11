@@ -25,7 +25,6 @@ public class LazyQueries {
                 curr=null;
                 return false;
             }
-
             @Override
             public T next() {
                 return curr;
