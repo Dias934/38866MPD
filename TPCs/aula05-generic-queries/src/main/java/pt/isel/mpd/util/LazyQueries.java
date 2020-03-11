@@ -15,6 +15,7 @@ public class LazyQueries {
         return ()->new Iterator<T>() {
             T curr;
             Iterator<T> iter=src.iterator();
+
             @Override
             public boolean hasNext() {
                 while(iter.hasNext()){
@@ -23,8 +24,10 @@ public class LazyQueries {
                         return true;
                 }
                 curr=null;
+
                 return false;
             }
+
             @Override
             public T next() {
                 return curr;
