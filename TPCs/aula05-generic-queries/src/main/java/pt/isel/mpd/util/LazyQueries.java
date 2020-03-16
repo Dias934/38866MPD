@@ -3,10 +3,36 @@ package pt.isel.mpd.util;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class LazyQueries {
+
+    public static <T> Iterable<T> limit(Iterable<T> src, int nr){
+        return ()-> new Iterator<T>() {
+            Iterator<T> iter=src.iterator();
+            int count=0;
+            T curr;
+            @Override
+            public boolean hasNext() {
+                if(count!=nr && iter.hasNext()){
+                    curr=iter.next();
+                    count++;
+                    return true;
+                }
+                return false;
+            }
+
+            @Override
+            public T next() {
+                if(curr==null)
+                    throw new NoSuchElementException("Need to invoke hasNext first");
+                return curr;
+            }
+        };
+    }
+
      /**
      * Versao 4
      */
@@ -23,13 +49,13 @@ public class LazyQueries {
                     if(pred.test(curr))
                         return true;
                 }
-                curr=null;
-
                 return false;
             }
 
             @Override
             public T next() {
+                if(curr==null)
+                    throw new NoSuchElementException("Need to call hasNext() first");
                 return curr;
             }
         };
