@@ -10,10 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/aula02" />
-            <option value="$PROJECT_DIR$/aula03-strategy-and-injection" />
-            <option value="$PROJECT_DIR$/aula04-template-method" />
-            <option value="$PROJECT_DIR$/aula05-generic-queries" />
+            <option value="$PROJECT_DIR$/aula07-lazy-reader" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

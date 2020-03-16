@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="isel-mpd-aulas-2020.aula02.main" target="11" />
+      <module name="isel-mpd-aulas-2020.aula02.test" target="11" />
+      <module name="isel-mpd-aulas-2020.aula03-strategy-and-injection.main" target="11" />
+      <module name="isel-mpd-aulas-2020.aula03-strategy-and-injection.test" target="11" />
+      <module name="isel-mpd-aulas-2020.aula04-template-method.main" target="11" />
+      <module name="isel-mpd-aulas-2020.aula04-template-method.test" target="11" />
+      <module name="isel-mpd-aulas-2020.aula05-generic-queries.main" target="11" />
+      <module name="isel-mpd-aulas-2020.aula05-generic-queries.test" target="11" />
+      <module name="isel-mpd-aulas-2020.aula06-lazy-queries.main" target="11" />
+      <module name="isel-mpd-aulas-2020.aula06-lazy-queries.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
