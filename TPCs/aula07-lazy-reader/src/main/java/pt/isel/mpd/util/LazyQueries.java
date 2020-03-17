@@ -17,7 +17,7 @@ public class LazyQueries {
 
             @Override
             public boolean hasNext() {
-                return iters[idx%2].hasNext();
+                return iters[0].hasNext() || iters[1].hasNext();
             }
 
             @Override
