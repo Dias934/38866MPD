@@ -17,7 +17,11 @@ public class LazyQueries {
 
             @Override
             public boolean hasNext() {
-                return iters[0].hasNext() || iters[1].hasNext();
+                if(iters[idx%2].hasNext())
+                    return true;
+                if(iters[(++idx)%2].hasNext())
+                    return true;
+                return false;
             }
 
             @Override

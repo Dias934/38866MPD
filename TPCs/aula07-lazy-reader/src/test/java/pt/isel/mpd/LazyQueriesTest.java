@@ -105,6 +105,18 @@ public class LazyQueriesTest {
         assertFalse(expected.hasNext());
     }
 
+    @Test public void interleaveNumbersEmpty() {
+        Iterable<Integer> nrs1 = Arrays.asList();
+        Iterable<Integer> nrs2 = Arrays.asList(4,5,6,7,8,9,10);
+        Iterator<Integer> expected = Arrays.asList(4,5,6,7,8,9,10).iterator();
+        Iterator<Integer> actual = interleave(nrs1,nrs2).iterator();
+        while(actual.hasNext()) {
+            Integer curr = actual.next();
+            assertEquals(expected.next(), curr);
+        }
+        assertFalse(expected.hasNext());
+    }
+
     static boolean cloudyDays(WeatherInfo info) {
         return info.desc.toLowerCase().contains("cloud");
     }
