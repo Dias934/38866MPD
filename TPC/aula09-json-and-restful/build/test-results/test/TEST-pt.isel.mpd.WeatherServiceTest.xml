@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.isel.mpd.WeatherServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-21T01:33:26" hostname="Quack" time="0.198">
+  <properties/>
+  <testcase name="testPastWeatherOfFaroCityMockRequest" classname="pt.isel.mpd.WeatherServiceTest" time="0.198"/>
+  <system-out><![CDATA[Weather {date=2020-01-01, tempC=14, precipMM=0.0, desc='Sunny'}
+Weather {date=2020-01-02, tempC=15, precipMM=0.2, desc='Patchy rain possible'}
+Weather {date=2020-01-03, tempC=16, precipMM=0.1, desc='Cloudy'}
+Weather {date=2020-01-04, tempC=15, precipMM=0.0, desc='Sunny'}
+Weather {date=2020-01-05, tempC=15, precipMM=0.0, desc='Cloudy'}
+Weather {date=2020-01-06, tempC=14, precipMM=0.0, desc='Sunny'}
+Weather {date=2020-01-07, tempC=15, precipMM=0.0, desc='Sunny'}
+Weather {date=2020-01-08, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-09, tempC=16, precipMM=0.0, desc='Cloudy'}
+Weather {date=2020-01-10, tempC=14, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-11, tempC=14, precipMM=0.0, desc='Sunny'}
+Weather {date=2020-01-12, tempC=14, precipMM=0.0, desc='Sunny'}
+Weather {date=2020-01-13, tempC=13, precipMM=0.0, desc='Overcast'}
+Weather {date=2020-01-14, tempC=15, precipMM=0.6, desc='Patchy rain possible'}
+Weather {date=2020-01-15, tempC=16, precipMM=2.7, desc='Light rain shower'}
+Weather {date=2020-01-16, tempC=17, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-17, tempC=16, precipMM=0.4, desc='Partly cloudy'}
+Weather {date=2020-01-18, tempC=17, precipMM=2.2, desc='Light rain'}
+Weather {date=2020-01-19, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-20, tempC=13, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-21, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-22, tempC=12, precipMM=3.6, desc='Light rain shower'}
+Weather {date=2020-01-23, tempC=14, precipMM=10.3, desc='Moderate or heavy rain with thunder'}
+Weather {date=2020-01-24, tempC=15, precipMM=8.5, desc='Moderate or heavy rain shower'}
+Weather {date=2020-01-25, tempC=16, precipMM=5.0, desc='Patchy rain possible'}
+Weather {date=2020-01-26, tempC=14, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-27, tempC=15, precipMM=0.1, desc='Patchy rain possible'}
+Weather {date=2020-01-28, tempC=16, precipMM=0.0, desc='Cloudy'}
+Weather {date=2020-01-29, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+Weather {date=2020-01-30, tempC=16, precipMM=0.0, desc='Partly cloudy'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

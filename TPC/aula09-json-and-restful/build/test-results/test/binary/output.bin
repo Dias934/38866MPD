@@ -1,0 +1,30 @@
+AWeather {date=2020-01-01, tempC=14, precipMM=0.0, desc='Sunny'}
+PWeather {date=2020-01-02, tempC=15, precipMM=0.2, desc='Patchy rain possible'}
+BWeather {date=2020-01-03, tempC=16, precipMM=0.1, desc='Cloudy'}
+AWeather {date=2020-01-04, tempC=15, precipMM=0.0, desc='Sunny'}
+BWeather {date=2020-01-05, tempC=15, precipMM=0.0, desc='Cloudy'}
+AWeather {date=2020-01-06, tempC=14, precipMM=0.0, desc='Sunny'}
+AWeather {date=2020-01-07, tempC=15, precipMM=0.0, desc='Sunny'}
+IWeather {date=2020-01-08, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+BWeather {date=2020-01-09, tempC=16, precipMM=0.0, desc='Cloudy'}
+IWeather {date=2020-01-10, tempC=14, precipMM=0.0, desc='Partly cloudy'}
+AWeather {date=2020-01-11, tempC=14, precipMM=0.0, desc='Sunny'}
+AWeather {date=2020-01-12, tempC=14, precipMM=0.0, desc='Sunny'}
+DWeather {date=2020-01-13, tempC=13, precipMM=0.0, desc='Overcast'}
+PWeather {date=2020-01-14, tempC=15, precipMM=0.6, desc='Patchy rain possible'}
+MWeather {date=2020-01-15, tempC=16, precipMM=2.7, desc='Light rain shower'}
+IWeather {date=2020-01-16, tempC=17, precipMM=0.0, desc='Partly cloudy'}
+IWeather {date=2020-01-17, tempC=16, precipMM=0.4, desc='Partly cloudy'}
+FWeather {date=2020-01-18, tempC=17, precipMM=2.2, desc='Light rain'}
+IWeather {date=2020-01-19, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+IWeather {date=2020-01-20, tempC=13, precipMM=0.0, desc='Partly cloudy'}
+IWeather {date=2020-01-21, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+MWeather {date=2020-01-22, tempC=12, precipMM=3.6, desc='Light rain shower'}
+`Weather {date=2020-01-23, tempC=14, precipMM=10.3, desc='Moderate or heavy rain with thunder'}
+YWeather {date=2020-01-24, tempC=15, precipMM=8.5, desc='Moderate or heavy rain shower'}
+PWeather {date=2020-01-25, tempC=16, precipMM=5.0, desc='Patchy rain possible'}
+IWeather {date=2020-01-26, tempC=14, precipMM=0.0, desc='Partly cloudy'}
+PWeather {date=2020-01-27, tempC=15, precipMM=0.1, desc='Patchy rain possible'}
+BWeather {date=2020-01-28, tempC=16, precipMM=0.0, desc='Cloudy'}
+IWeather {date=2020-01-29, tempC=15, precipMM=0.0, desc='Partly cloudy'}
+IWeather {date=2020-01-30, tempC=16, precipMM=0.0, desc='Partly cloudy'}
